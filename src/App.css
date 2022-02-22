@@ -8,42 +8,13 @@ main {
 
 .inner {
   text-align: center;
+  font-size: 24px;
 }
 
 .title {
   font-weight: bold;
 }
 
-.wrench, .hammer {
-  display: inline-block;
-}
-
-.wrench {
-  animation: wrench 1s linear infinite forwards;
-  margin-right: 10px;
-}
-
-.hammer {
-  animation: hammer 1s linear infinite reverse;
-  margin-left: 10px;
-}
-
-@keyframes wrench {
-  0% {
-    transform: rotate(0);
-  }
-
-  100% {
-    transform: rotate(359deg);
-  }
-}
-
-@keyframes hammer {
-  0% {
-    transform: rotate(0);
-  }
-
-  100% {
-    transform: rotate(359deg);
-  }
+.subtitle {
+  color: #999;
 }
